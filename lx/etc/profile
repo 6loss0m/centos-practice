@@ -82,3 +82,9 @@ HISTTIMEFORMAT="%Y-%m-%d_%H:%M:%S [CMD]:"
 export JAVA_HOME=/usr/local/poscodx2023/java
 export CLASSPATH=$JAVA_HOME/lib/*
 export PATH=$PATH:$JAVA_HOME/bin
+
+# git
+PATH=$PATH:/usr/local/poscodx2023/git/bin
+
+# maven
+export PATH=$PATH:/usr/local/poscodx2023/maven/bin
