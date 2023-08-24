@@ -54,38 +54,21 @@
   PATH=$PATH:/usr/local/poscodx2023/git/bin
 ```
 
-10. git 환경 설정
+10. 확인
    
  ```sh
-# git config --global user.name "6loss0m"
-# git config --global user.email "gsjang0807@gmail.com"
+# git --version
 ```
 
 11. git 사용하기
 
  ```sh
-# mkdir centos-practices
-# cd centos-practices
-# git init
-# git add -A
-# git commit -m "first commit"
-# git remote add origin https://github.com/douzone-busan-bitacademy/centos-practices.git
-# git push -u origin master
-
-================
-# git add -A
-# git commit -m "...."
-# git push
-```
-
-
-=========================================================
-
-
-# git clone https://github.com/douzone-busan-bitacademy/javastudy.git
-# cd javastudy
+# mkdir my-workspace
+# cd my-workspace
+# git clone https://github.com/6loss0m/java-study.git
+# cd java-study
 # mvn clean package
-
+```
 
 
 
